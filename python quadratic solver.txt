@@ -1,0 +1,18 @@
+import math
+
+a = float(input('Enter a coefficient: '))
+b = float(input('Enter b coefficient: '))
+c = float(input('Enter c coefficient: '))
+
+solution1 = (-b+((b*b-4*a*c)**(1/2.0)))/(2*a)
+solution2 = (-b-((b*b-4*a*c)**(1/2.0)))/(2*a)
+
+print('solution 1 is:', solution1)
+print('solution 2 is:', solution2)
+
+binary1 = input(('Enter 8 bit binary value: '), 2)
+print(binary1)
+
+
+
+
